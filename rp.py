@@ -175,22 +175,25 @@ else:
 for color in some_color_set:
     print(color)
     if color:
-        #next iterration
+        # next iterration
         continue
-    if len(color)==1:
-        #stop itterations
+    if len(color) == 1:
+        # stop itterations
         break
-else: 
+else:
     # run this at the end if there was no break
     print("no break")
 
 while True:
     print("whiling")
-    if a==b:
+    if a == b:
         break
-    if a<b:
+    if a < b:
         continue
     print("no break no continue")
 else:
     print("at the end with no break")
-    
+
+msg = "Hi"
+
+print(msg)
