@@ -177,7 +177,7 @@ for color in some_color_set:
     if color:
         #next iterration
         continue
-    if len(color)=1:
+    if len(color)==1:
         #stop itterations
         break
 else: 
